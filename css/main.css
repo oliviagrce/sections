@@ -12,6 +12,7 @@ html {
 
 body {
   vertical-align: middle;
+  margin: 1.5rem;
 }
 
 img {
@@ -38,6 +39,7 @@ p {
   margin: 0;
   margin-bottom: 1.5rem;
   color: #333;
+  max-width: 1.5rem;
 }
 
 .btn {
