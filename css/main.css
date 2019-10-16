@@ -16,11 +16,9 @@ body {
 }
 
 img {
-  width: 100%;
-  max-width: 100%;
-  display: inline;
-  vertical-align: middle;
+  display: block;
   text-align: center;
+  width: auto;
 }
 
 div {
