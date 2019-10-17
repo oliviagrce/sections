@@ -59,7 +59,7 @@ p {
 
 .image {
   display: inline-block;
-  padding: 1em;
+  padding: 1.5em .75em 0;
   max-width: 25em;
 }
 
