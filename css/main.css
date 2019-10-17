@@ -4,6 +4,7 @@ html {
   line-height: 1.5;
   font-family: Lato, sans-serif;
   margin: 1.5rem;
+  vertical-align: middle;
 }
 
 *, *::before, *::after {
@@ -11,14 +12,13 @@ html {
 }
 
 body {
-  vertical-align: middle;
   margin: 0;
 }
 
 img {
   display: block;
+  width: 100%;
   text-align: center;
-  width: auto;
 }
 
 div {
@@ -54,4 +54,17 @@ p {
 .btn:hover {
   background-color: #666;
   color: #fff;
+}
+
+.images {
+  display: inline-block;
+  padding: 1em;
+  max-width: 25em;
+}
+
+.right {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 1em;
+  max-width: 25em;
 }
