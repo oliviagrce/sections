@@ -15,15 +15,22 @@ body {
   margin: 0;
 }
 
+section {
+  padding: 2em;
+  text-align: center;
+}
+
 img {
   display: block;
   width: 100%;
-  text-align: center;
   margin: 0 auto 1rem;
 }
 
 div {
   display: inline-block;
+  max-width: 25em;
+  padding: 1em;
+  text-align: left;
 }
 
 h2 {
@@ -44,7 +51,7 @@ p {
 
 .btn {
   display: inline;
-  padding: .75em;
+  padding: .4em .75em .5em;
   border-style: solid;
   border-color: #333;
   border-radius: 10px;
