@@ -30,6 +30,7 @@ div {
   max-width: 25em;
   padding: 1em;
   text-align: left;
+  vertical-align: middle;
 }
 
 h2 {
@@ -69,11 +70,12 @@ h2, p {
   display: inline-block;
   max-width: 25em;
   width: 100%;
+  vertical-align: middle;
 }
 
 .right {
   display: inline-block;
   padding: 1em;
   max-width: 25em;
-  vertical-align: top;
+  vertical-align: middle;
 }
